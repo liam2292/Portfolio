@@ -10,6 +10,17 @@ header {
   background-color: #ee6055;
 }
 
+main{
+  position: absolute;
+  top: 60px;
+  color: #ee6055;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #logo-container {
   font-size: 40px;
 }
@@ -19,8 +30,6 @@ header {
   color: white;
 }
 
-
-
 #links-container {
   display: grid;
   grid-template-columns: 1fr 90px;
@@ -28,19 +37,17 @@ header {
   justify-items: center;
 }
 
-#links-container a{
-    text-decoration: none;
-    color: white;
+#links-container a {
+  text-decoration: none;
+  color: white;
 }
 
 #links-container a:hover,
 #logo-container a:hover {
-    color: #aaf683;
-    transition: color 0.2s;
+  color: #aaf683;
+  transition: color 0.2s;
 }
 
-
-
-#links-container a h1{
-    margin-top: 6px;
+#links-container a h1 {
+  margin-top: 6px;
 }
