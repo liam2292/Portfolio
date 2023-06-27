@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #7D8F69;
+}
+
+#logo-container {
+  font-size: 40px;
+}
+
+#logo-container a {
+  text-decoration: none;
+  color: #E6E5A3;
+}
+
+#links-container {
+  display: grid;
+  grid-template-columns: 1fr 90px;
+  column-gap: 0px;
+  justify-items: center;
+}
+
+#links-container a {
+  text-decoration: none;
+  color: #E6E5A3;
+}
+
+#links-container a:hover,
+#logo-container a:hover {
+  color: white;
+  transition: color 0.2s;
+}
+
+#links-container a h1 {
+  margin-top: 6px;
+}
