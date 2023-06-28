@@ -1,5 +1,18 @@
-div p{
+div {
     text-align: center;
-    font-size: 30px;
 }
 
+div h1 {
+  font-weight: 400;
+}
+
+div p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.welcome-text {
+    margin-top: 0;
+}

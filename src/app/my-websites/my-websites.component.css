@@ -1,12 +1,20 @@
-ul li a{
-    color: #E6E5A3;
-    font-weight: 700;
-    font-size: 25px;
-    text-decoration: none;
+p {
+ font-weight: 100;   
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #e6e5a3;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 ul li a:hover {
-    cursor: pointer;
-    color: white;
-    transition: color 0.2s;
+  cursor: pointer;
+  color: white;
+  transition: color 0.2s;
 }
